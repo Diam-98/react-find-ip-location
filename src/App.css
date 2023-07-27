@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main button {
+  border: 1px solid #33808a;
+}
+
+.main .location {
+  display: flex;
+  flex-direction: column;
+}
+
+.main table {
+  width: 100%;
+  margin-top: 40px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.main table th,
+td {
+  border: 1px solid #e0e8e9;
+  width: 50%;
+  padding: 7px;
+}
